@@ -1,0 +1,13 @@
+C:\Users\Juan\source\repos\Aguado.Santiago.2A.TP\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Juan\source\repos\Aguado.Santiago.2A.TP\Entidades\bin\Debug\Entidades.dll.config
+C:\Users\Juan\source\repos\Aguado.Santiago.2A.TP\Entidades\bin\Debug\Entidades.dll
+C:\Users\Juan\source\repos\Aguado.Santiago.2A.TP\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Juan\source\repos\Aguado.Santiago.2A.TP\Entidades\obj\Debug\Entidades.dll
+C:\Users\Juan\source\repos\Aguado.Santiago.2A.TP\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Juan\Desktop\Aguado.Santiago.2A.TP\Entidades\bin\Debug\Entidades.dll.config
+C:\Users\Juan\Desktop\Aguado.Santiago.2A.TP\Entidades\bin\Debug\Entidades.dll
+C:\Users\Juan\Desktop\Aguado.Santiago.2A.TP\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Juan\Desktop\Aguado.Santiago.2A.TP\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Juan\Desktop\Aguado.Santiago.2A.TP\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Juan\Desktop\Aguado.Santiago.2A.TP\Entidades\obj\Debug\Entidades.dll
+C:\Users\Juan\Desktop\Aguado.Santiago.2A.TP\Entidades\obj\Debug\Entidades.pdb
