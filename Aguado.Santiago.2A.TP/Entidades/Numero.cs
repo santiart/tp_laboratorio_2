@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 
 namespace Entidades
 {
@@ -31,25 +34,16 @@ namespace Entidades
         public string BinarioDecimal(string binario)
         {
             double result = 0;
+            string resultStr = "El Numero Ingresado es Invalido";
             int aux;
-            bool notBinary = false;
-            string resultStr = "El Valor Ingresado es Invalido";
 
-            for (int i = 2; i <= 9; i++)
-            {
-                if (notBinary = binario.Contains(i.ToString()))
-                {
-                    break;
-                }
-            }
-
-            if (int.TryParse(binario, out aux) && !notBinary)
+            if (int.TryParse(binario, out aux))
             {
                 if (int.Parse(binario) > 0)
                 {
                     for (int i = 1; i <= binario.Length; i++)
                     {
-                        result += int.Parse(binario[i - 1].ToString()) * (int)Math.Pow(2, binario.Length - i);
+                        result += int.Parse(binario[i - 1].ToString()) * (int)(Math.Pow(2, (binario.Length - i)));
                     }
                     resultStr = result.ToString();
                 }
@@ -75,7 +69,7 @@ namespace Entidades
             if (numero > 0 && numero < double.MaxValue)
             {
                 entero = (long)numero;
-                resultadoStr = " ";
+                resultadoStr = "";
                 while (entero != 0)
                 {
                     resultadoStr = (entero % 2).ToString() + resultadoStr;

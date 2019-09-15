@@ -13,7 +13,7 @@
         {
             double retorno;
 
-            switch (ValidarOperador(operador))
+            switch (Calculadora.ValidarOperador(operador))
             {
                 case "/":
                     retorno = num1 / num2;
@@ -46,15 +46,15 @@
         /// <returns>devuelve el operador validado</returns>
         private static string ValidarOperador(string operador)
         {
+            char Char;
             string retorno = "+";
-
-            if (operador == "-")
-                retorno = "-";
-            else if (operador == "/")
-                retorno = "/";
-            else if (operador == "*")
-                retorno = "*";
-
+            if (char.TryParse(operador, out Char))
+            {
+                if (Char == '+' || Char == '-' || Char == '*' || Char == '/')
+                {
+                    retorno = Char.ToString();
+                }
+            }
             return retorno;
         }
     }
