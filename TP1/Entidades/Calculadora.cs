@@ -9,7 +9,7 @@
         /// <param name="num2">segundo valor ingresado</param>
         /// <param name="operador">operacion a realizar</param>
         /// <returns>devuelve el resultado de la operacion que se pidio</returns>
-        public double Operar(Numero num1, Numero num2, string operador)
+        public static double Operar(Numero num1, Numero num2, string operador)
         {
             double retorno;
 
