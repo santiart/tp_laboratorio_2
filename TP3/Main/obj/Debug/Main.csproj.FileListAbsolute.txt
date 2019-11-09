@@ -1,0 +1,16 @@
+C:\Users\Juan\source\repos\TP 3\Main\obj\Debug\Main.csprojAssemblyReference.cache
+C:\Users\Juan\source\repos\TP 3\Main\obj\Debug\Main.csproj.CoreCompileInputs.cache
+C:\Users\Juan\source\repos\TP 3\Main\bin\Debug\Main.exe.config
+C:\Users\Juan\source\repos\TP 3\Main\bin\Debug\Main.exe
+C:\Users\Juan\source\repos\TP 3\Main\bin\Debug\Main.pdb
+C:\Users\Juan\source\repos\TP 3\Main\bin\Debug\Aguado.Santiago.2A.TP3.dll
+C:\Users\Juan\source\repos\TP 3\Main\bin\Debug\ClasesInstanciables.dll
+C:\Users\Juan\source\repos\TP 3\Main\bin\Debug\Excepciones.dll
+C:\Users\Juan\source\repos\TP 3\Main\bin\Debug\Archivos.dll
+C:\Users\Juan\source\repos\TP 3\Main\bin\Debug\Aguado.Santiago.2A.TP3.pdb
+C:\Users\Juan\source\repos\TP 3\Main\bin\Debug\ClasesInstanciables.pdb
+C:\Users\Juan\source\repos\TP 3\Main\bin\Debug\Excepciones.pdb
+C:\Users\Juan\source\repos\TP 3\Main\bin\Debug\Archivos.pdb
+C:\Users\Juan\source\repos\TP 3\Main\obj\Debug\Main.csproj.CopyComplete
+C:\Users\Juan\source\repos\TP 3\Main\obj\Debug\Main.exe
+C:\Users\Juan\source\repos\TP 3\Main\obj\Debug\Main.pdb

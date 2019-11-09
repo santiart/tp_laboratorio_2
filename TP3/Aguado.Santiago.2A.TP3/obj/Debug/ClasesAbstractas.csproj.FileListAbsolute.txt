@@ -1,0 +1,9 @@
+C:\Users\Juan\source\repos\TP 3\Aguado.Santiago.2A.TP3\bin\Debug\Aguado.Santiago.2A.TP3.dll
+C:\Users\Juan\source\repos\TP 3\Aguado.Santiago.2A.TP3\bin\Debug\Aguado.Santiago.2A.TP3.pdb
+C:\Users\Juan\source\repos\TP 3\Aguado.Santiago.2A.TP3\bin\Debug\Excepciones.dll
+C:\Users\Juan\source\repos\TP 3\Aguado.Santiago.2A.TP3\bin\Debug\Excepciones.pdb
+C:\Users\Juan\source\repos\TP 3\Aguado.Santiago.2A.TP3\obj\Debug\ClasesAbstractas.csprojAssemblyReference.cache
+C:\Users\Juan\source\repos\TP 3\Aguado.Santiago.2A.TP3\obj\Debug\ClasesAbstractas.csproj.CoreCompileInputs.cache
+C:\Users\Juan\source\repos\TP 3\Aguado.Santiago.2A.TP3\obj\Debug\ClasesAbstractas.csproj.CopyComplete
+C:\Users\Juan\source\repos\TP 3\Aguado.Santiago.2A.TP3\obj\Debug\Aguado.Santiago.2A.TP3.dll
+C:\Users\Juan\source\repos\TP 3\Aguado.Santiago.2A.TP3\obj\Debug\Aguado.Santiago.2A.TP3.pdb

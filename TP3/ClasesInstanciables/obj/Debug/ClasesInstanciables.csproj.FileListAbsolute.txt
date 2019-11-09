@@ -1,0 +1,13 @@
+C:\Users\Juan\source\repos\TP 3\ClasesInstanciables\obj\Debug\ClasesInstanciables.csprojAssemblyReference.cache
+C:\Users\Juan\source\repos\TP 3\ClasesInstanciables\obj\Debug\ClasesInstanciables.csproj.CoreCompileInputs.cache
+C:\Users\Juan\source\repos\TP 3\ClasesInstanciables\bin\Debug\ClasesInstanciables.dll
+C:\Users\Juan\source\repos\TP 3\ClasesInstanciables\bin\Debug\ClasesInstanciables.pdb
+C:\Users\Juan\source\repos\TP 3\ClasesInstanciables\bin\Debug\Aguado.Santiago.2A.TP3.dll
+C:\Users\Juan\source\repos\TP 3\ClasesInstanciables\bin\Debug\Archivos.dll
+C:\Users\Juan\source\repos\TP 3\ClasesInstanciables\bin\Debug\Excepciones.dll
+C:\Users\Juan\source\repos\TP 3\ClasesInstanciables\bin\Debug\Aguado.Santiago.2A.TP3.pdb
+C:\Users\Juan\source\repos\TP 3\ClasesInstanciables\bin\Debug\Archivos.pdb
+C:\Users\Juan\source\repos\TP 3\ClasesInstanciables\bin\Debug\Excepciones.pdb
+C:\Users\Juan\source\repos\TP 3\ClasesInstanciables\obj\Debug\ClasesInstanciables.csproj.CopyComplete
+C:\Users\Juan\source\repos\TP 3\ClasesInstanciables\obj\Debug\ClasesInstanciables.dll
+C:\Users\Juan\source\repos\TP 3\ClasesInstanciables\obj\Debug\ClasesInstanciables.pdb
