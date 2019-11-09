@@ -116,7 +116,7 @@ namespace ClasesInstanciables
         {
             StringBuilder sb = new StringBuilder();
 
-            sb.AppendLine("CLASE DE " + this.Clase.ToString() + "POR " + this.Instructor.ToString() + "\n");
+            sb.AppendLine("CLASE DE " + this.Clase.ToString() + " POR " + this.Instructor.ToString() + "\n");
             sb.AppendLine("ALUMNOS: ");
             foreach(Alumno a in this.Alumnos)
             {

@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clases Instanciables Test",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Main", "Main\Main.csproj", "{C829CD82-071A-4260-9917-E85C3EB58A7B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{5DCD1253-A72C-461A-9A70-8D90791300C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{C829CD82-071A-4260-9917-E85C3EB58A7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C829CD82-071A-4260-9917-E85C3EB58A7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C829CD82-071A-4260-9917-E85C3EB58A7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DCD1253-A72C-461A-9A70-8D90791300C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DCD1253-A72C-461A-9A70-8D90791300C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DCD1253-A72C-461A-9A70-8D90791300C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DCD1253-A72C-461A-9A70-8D90791300C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -87,7 +87,7 @@ namespace EntidadesAbstractas
 
         public override string ToString()
         {
-            return string.Format("NOMBRE COMPLETO: {0}, {1} \nNACIONALIDAD: {2}\n",this.Apellido, this.Nombre, this.Nacionalidad.ToString());
+            return string.Format("NOMBRE COMPLETO: {0}, {1} \nNACIONALIDAD: {2}\n\n",this.Apellido, this.Nombre, this.Nacionalidad.ToString());
         }
 
         private static int ValidarDni(ENacionalidad nacionalidad,int dato)

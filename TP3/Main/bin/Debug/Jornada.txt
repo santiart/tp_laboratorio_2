@@ -1,15 +1,17 @@
-CLASE DE LaboratorioPOR NOMBRE COMPLETO: Juarez, Roberto 
+CLASE DE Laboratorio POR NOMBRE COMPLETO: Juarez, Roberto 
 NACIONALIDAD: Argentino
+
 LEGAJO NÚMERO: 2
 CLASES DEL DÍA: 
-Laboratorio
+Legislacion
 Laboratorio
 
 ALUMNOS: 
 NOMBRE COMPLETO: Suarez, Joaquin 
 NACIONALIDAD: Extranjero
+
 LEGAJO NÚMERO: 7
 
- ESTADOP DE CUENTA: AlDia
+ ESTADO DE CUENTA: AlDia
 TOMA  CLASE DE Laboratorio 
 
