@@ -17,7 +17,7 @@ namespace FrmTP4
 
         private void ActualizarEstado()
         {
-            this.lstEstadoEntregado.Items.Clear();
+            this.lstEstadoIngresado.Items.Clear();
             this.lstEstadoEnViaje.Items.Clear();
             this.lstEstadoEntregado.Items.Clear();
 
@@ -41,7 +41,7 @@ namespace FrmTP4
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             Paquete paquete = new Paquete(this.txtDireccion.Text, this.mtxtTrackingId.Text);
-            paquete.InformaEstado += this
+            paquete.InformaEstado += this.paq_InformaEstado;
 
             try
             {
@@ -78,11 +78,13 @@ namespace FrmTP4
         {
             if(elemento != null)
             {
-                this.rtbMostrar.Text = elemento.MostrarDatos(elemento);
+                string dato = elemento.MostrarDatos(elemento);
 
                 try
                 {
-                    GuardaString.Guardar(this.rtbMostrar.Text, "salida.txt");
+                    this.rtbMostrar.Text = dato;
+
+                    dato.Guardar("salida.txt");
                 }
                 catch(Exception)
                 {

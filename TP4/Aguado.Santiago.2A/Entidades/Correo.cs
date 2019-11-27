@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    public class Correo : IMostrar<Correo>
+    public class Correo : IMostrar<List<Paquete>>
     {
         private List<Thread> mockPacketes;
         private List<Paquete> paquetes;
@@ -33,14 +33,16 @@ namespace Entidades
             }
         }
 
-        public string MostrarDatos(IMostrar<Correo> elemento)
+        public string MostrarDatos(IMostrar<List<Paquete>> elementos)
         {
-            List<Paquete> lista2 = new List<Paquete>();
             StringBuilder sb = new StringBuilder();
 
-            foreach(Paquete p in lista2)
+            if(elementos.GetType() == typeof(Correo))
             {
-                sb.AppendFormat("{0} para {1} {2} \n", p.TrackingID, p.DireccionEntrega, p.Estado.ToString());
+                foreach(Paquete p in ((Correo)elementos).paquetes)
+                {
+                    sb.AppendLine(p.MostrarDatos(p) + "(" + p.Estado.ToString() + ")");
+                }
             }
             return sb.ToString();
         }

@@ -1,0 +1,14 @@
+C:\Users\Juan\Desktop\tp_laboratorio_2\TP4\Aguado.Santiago.2A\FrmTP4\bin\Debug\FrmTP4.exe.config
+C:\Users\Juan\Desktop\tp_laboratorio_2\TP4\Aguado.Santiago.2A\FrmTP4\bin\Debug\FrmTP4.exe
+C:\Users\Juan\Desktop\tp_laboratorio_2\TP4\Aguado.Santiago.2A\FrmTP4\bin\Debug\FrmTP4.pdb
+C:\Users\Juan\Desktop\tp_laboratorio_2\TP4\Aguado.Santiago.2A\FrmTP4\bin\Debug\Entidades.dll
+C:\Users\Juan\Desktop\tp_laboratorio_2\TP4\Aguado.Santiago.2A\FrmTP4\bin\Debug\Entidades.pdb
+C:\Users\Juan\Desktop\tp_laboratorio_2\TP4\Aguado.Santiago.2A\FrmTP4\bin\Debug\Entidades.dll.config
+C:\Users\Juan\Desktop\tp_laboratorio_2\TP4\Aguado.Santiago.2A\FrmTP4\obj\Debug\MainCorreo.csprojAssemblyReference.cache
+C:\Users\Juan\Desktop\tp_laboratorio_2\TP4\Aguado.Santiago.2A\FrmTP4\obj\Debug\FrmTP4.FrmPpal.resources
+C:\Users\Juan\Desktop\tp_laboratorio_2\TP4\Aguado.Santiago.2A\FrmTP4\obj\Debug\FrmTP4.Properties.Resources.resources
+C:\Users\Juan\Desktop\tp_laboratorio_2\TP4\Aguado.Santiago.2A\FrmTP4\obj\Debug\MainCorreo.csproj.GenerateResource.cache
+C:\Users\Juan\Desktop\tp_laboratorio_2\TP4\Aguado.Santiago.2A\FrmTP4\obj\Debug\MainCorreo.csproj.CoreCompileInputs.cache
+C:\Users\Juan\Desktop\tp_laboratorio_2\TP4\Aguado.Santiago.2A\FrmTP4\obj\Debug\MainCorreo.csproj.CopyComplete
+C:\Users\Juan\Desktop\tp_laboratorio_2\TP4\Aguado.Santiago.2A\FrmTP4\obj\Debug\FrmTP4.exe
+C:\Users\Juan\Desktop\tp_laboratorio_2\TP4\Aguado.Santiago.2A\FrmTP4\obj\Debug\FrmTP4.pdb

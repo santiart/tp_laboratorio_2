@@ -19,23 +19,22 @@ namespace Entidades
 
             try
             {
+                comando.CommandType = System.Data.CommandType.Text;
 
-                comando.CommandText = String.Format("insert into Paquetes(direccionEntrega,trackingId,alumno) values('{0}','{1}', 'Aguado', 'Santiago')", p.DireccionEntrega, p.TrackingID);
-
-                comando.Connection = conexion;
+                comando.CommandText = String.Format("INSERT INTO Paquetes(direccionEntrega,trackingId,alumno) values('{0}','{1}','{2}')", p.DireccionEntrega, p.TrackingID, "Santiago Aguado");
 
                 conexion.Open();
 
                 comando.ExecuteNonQuery();
             }
-            catch(Exception)
+            catch(Exception e)
             {
-                throw;
+                throw e;
             }
             finally
             {
                 if(conexion.State == System.Data.ConnectionState.Open)
-                    conexion.Close();
+                    comando.Connection.Close();
             }
 
             return retorno;
@@ -43,8 +42,9 @@ namespace Entidades
 
         static PaqueteDAO()
         {
-            comando = new SqlCommand(Properties.Settings.Default.conexion);
-            conexion = new SqlConnection();
+            comando = new SqlCommand();
+            conexion = new SqlConnection(Properties.Settings.Default.conexion);
+            comando.Connection = conexion;
         }
     }
 }
