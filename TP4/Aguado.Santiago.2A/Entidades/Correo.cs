@@ -53,13 +53,13 @@ namespace Entidades
             {
                 foreach(Paquete x in c.paquetes)
                 {
-                    if(x.Equals(p))
+                    if(x == p)
                     {
                         throw new TrackingIdRepetidoException("ID Repetido...\n");
                     }
                 }
-                Thread hilo = new Thread(p.MockCicloDeVida);
                 c.Paquetes.Add(p);
+                Thread hilo = new Thread(p.MockCicloDeVida);
                 c.mockPacketes.Add(hilo);
                 hilo.Start();
             }

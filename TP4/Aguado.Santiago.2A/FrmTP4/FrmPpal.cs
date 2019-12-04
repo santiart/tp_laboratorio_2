@@ -49,7 +49,7 @@ namespace FrmTP4
             }
             catch(TrackingIdRepetidoException)
             {
-                MessageBox.Show("Ya existe el tracking ID " + this.mtxtTrackingId.Text);
+                MessageBox.Show("Ya existe el tracking ID: " + this.mtxtTrackingId.Text);
             }
 
             this.ActualizarEstado();
@@ -62,11 +62,11 @@ namespace FrmTP4
 
         public FrmPpal()
         {
+            InitializeComponent();
+
             correo = new Correo();
 
             FormClosing += FrmPpal_FormClosing;
-
-            InitializeComponent();
         }
 
         private void FrmPpal_FormClosing(object sender, EventArgs e)

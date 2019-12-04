@@ -19,11 +19,12 @@ namespace Entidades
 
             try
             {
+                conexion.Open();
+                comando.Connection = conexion;
+
                 comando.CommandType = System.Data.CommandType.Text;
 
                 comando.CommandText = String.Format("INSERT INTO Paquetes(direccionEntrega,trackingId,alumno) values('{0}','{1}','{2}')", p.DireccionEntrega, p.TrackingID, "Santiago Aguado");
-
-                conexion.Open();
 
                 comando.ExecuteNonQuery();
             }
@@ -44,7 +45,6 @@ namespace Entidades
         {
             comando = new SqlCommand();
             conexion = new SqlConnection(Properties.Settings.Default.conexion);
-            comando.Connection = conexion;
         }
     }
 }
